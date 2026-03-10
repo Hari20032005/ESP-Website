@@ -67,3 +67,4 @@ from esp.program.modules.tests.test_class_creation import (
     TeacherAvailabilityConsistencyTest,
 )
 from esp.program.modules.tests.test_enrolled_split import EnrolledSplitViewTest
+from esp.program.modules.tests.lotteryfrontendmodule import LotteryFrontendModuleTest
