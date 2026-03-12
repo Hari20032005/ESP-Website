@@ -485,7 +485,7 @@ all_global_tags = {
     },
     'google_cloud_api_key': {
         'is_boolean': False,
-        'help_text': 'An API key for use with the Google Cloud Platform. Used for the maps in the student and teacher onsite webapps. The embedded map is entirely free but requires an API key. If not set, the map tab will be hidden.',
+        'help_text': 'An API key for use with the Google Maps JavaScript API. Used to enable walking directions to class locations in the student and teacher onsite webapps. Note that this API service requires a payment method on your Google Cloud account. The Google Maps Embed API key (used to display the map itself) is now managed centrally in local_settings.py and no longer needs to be set here.',
         'default': '',
         'category': 'manage',
         'is_setting': True,
